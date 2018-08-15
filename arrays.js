@@ -26,6 +26,12 @@ function accessElementInArray(x,y) {
 }
 function destructivelyRemoveElementFromBeginningOfArray(x) {
   x.shift()
-  return x 
-  
+  return x
+
+}
+function removeElementFromBeginningOfArray(x) {
+  z=x.slice(1)
+  return z
+
+
 }
